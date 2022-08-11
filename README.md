@@ -1,4 +1,4 @@
-# Create Make a Working Random Password Generator Using javaScript
+# Deploy a Working Random Password Generator Using javaScript
 
 Individually implement the project for the following USER story:
 
