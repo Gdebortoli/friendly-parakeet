@@ -20,22 +20,22 @@ let userAnswers = []
 // Prompt Questions - Yes or No 
   let hasUpperCase = confirm('Would you like your password to include UPPER case letters?');
   if (confirm) {
-    alert("Your password will contain at least 1 UPPER case letter")
+    alert("Your password will contain at least 1 UPPER case letter.")
   };
 
   let hasLowerCase = confirm('Would you like your password to include lower case letters?');
   if (confirm) {
-    alert("Your password will contain at least 1 lower case letter")
+    alert("Your password will contain at least 1 lower case letter.")
   };
 
   let hasNumbers = confirm('Would you like your password to include numbers?');
   if (confirm) {
-    alert("Your password will contain at least 1 number")
+    alert("Your password will contain at least 1 number.")
   };
   
   let hasSpecialCharacters = confirm('Would you like your password to contain special characters?');
   if (confirm) {
-    alert("Your password will contain at least 1 special character")
+    alert("Your password will contain at least 1 special character.")
   };
 
 // Password Parameters - Bullions 
