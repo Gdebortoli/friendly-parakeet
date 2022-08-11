@@ -38,7 +38,7 @@ let userAnswers = []
     alert("Your password will contain at least 1 special character")
   };
 
-// Password Parameters (Bullions) - If/else statements here 
+// Password Parameters - Bullions 
   if (hasUpperCase) {
     userAnswers = userAnswers.concat(upperCase); 
   };
@@ -60,11 +60,12 @@ let userAnswers = []
   }
   // Results
   let results = []
-  for (let i = 0; i > length; i++) {
+  for (let i = 0; i < length; i++) {
     let randomIndex = Math.floor(Math.random() * userAnswers.length)
     let randomContent = userAnswers[randomIndex];
     results.push(randomContent);
   }
+  console.log(results.join(""))
   return results.join("");
 }
   // Get references to the #generate element
@@ -77,9 +78,6 @@ let userAnswers = []
 
     passwordText.value = password;
   } 
-// generatePassword ();
-// will need to make sure it shows up in text box -
-
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
 
