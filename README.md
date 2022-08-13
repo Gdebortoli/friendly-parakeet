@@ -1,12 +1,13 @@
 # Deploy a Working Random Password Generator Using javaScript
 
-Individually implement the project for the following USER story:
+### Individually implement the project for the following USER story:
 
 * AS AN employee with access to sensitive data I WANT to randomly generate a password that meets certain  criteria SO THAT I can create a strong password that provides greater security.
 
 ## Acceptance Criteria 
 
-GIVEN a USER need a new, secure password
+### GIVEN a USER need a new, secure password
+
 * WHEN the USER click the button to generate a password THEN I am presented with a series of prompts for password criteria
 * WHEN prompted for password criteria THEN the USER selects which criteria to include in the password
 * WHEN prompted for the length of the password THEN the USER chooses a length of at least 8 characters and no more than 128 characters
