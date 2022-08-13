@@ -27,4 +27,6 @@ The following demonstrates what the site is meant to look like
 
 ## Link to deployed application 
 
+https://gdebortoli.github.io/jS.Random.Password.Generator/
+
 This site was build using [Github Pages](https://gdebortoli.github.io/jS.Random.Password.Generator/)
