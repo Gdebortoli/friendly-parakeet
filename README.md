@@ -21,7 +21,9 @@ The following demonstrates what the site is meant to look like
 ![The text 'Password Generator' is centererd in the page above a box containing antoher subtitle 'Generate a password' above a text box containing the words 'Your Secure Password'. Below the text box is a red button that reads 'Generate Password'](https://courses.bootcampspot.com/courses/1911/files/1912556/preview)
 
 ## Screenshot 
-![he text 'Password Generator' is centererd in the page above a box containing antoher subtitle 'Generate a password' above a text box containing the randomly generated password consisting of the chosen value of 100 characters containing a random array of numbers, uppercase letters, lowercase letters and special characters. Below the text box is a red button that reads 'Generate Password']()
+![he text 'Password Generator' is centererd in the page above a box containing antoher subtitle 'Generate a password' above a text box containing the randomly generated password consisting of the chosen value of 100 characters containing a random array of numbers, uppercase letters, lowercase letters and special characters. Below the text box is a red button that reads 'Generate Password'](/assets/Screen%20Shot%202022-08-10%20at%209.40.35%20PM.png)
+
+
 
 ## Link to deployed application 
 

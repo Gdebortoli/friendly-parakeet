@@ -10,32 +10,40 @@ let userAnswers = []
   let length = prompt('How many characters would you like your password to contain?');
   if (length < 8 || length > 128) {
     alert("Password does not meet the requirements. It must be between 8 and 128 characters. Please make another selection.");
-  }
-  else if (isNaN(length)) {
+    return ("Please try again! Re-Click the generate password button below!");
+  } else if (isNaN(length)) {
     length = prompt("Please enter a valid number for length of password.");
   } else {
     alert("Your password will be " + length + " characters long.");
-  }
+  };
 
 // Prompt Questions - Yes or No 
   let hasUpperCase = confirm('Would you like your password to include UPPER case letters?');
-  if (confirm) {
+  if (hasUpperCase) {
     alert("Your password will contain at least 1 UPPER case letter.")
+  } else {
+    alert("You chose not to inclue an UPPER case letter.")
   };
 
   let hasLowerCase = confirm('Would you like your password to include lower case letters?');
-  if (confirm) {
+  if (hasLowerCase) {
     alert("Your password will contain at least 1 lower case letter.")
+  } else {
+    alert("You chose not to include a lower case letter.")
   };
 
   let hasNumbers = confirm('Would you like your password to include numbers?');
-  if (confirm) {
+  if (hasNumbers) {
     alert("Your password will contain at least 1 number.")
+  } else {
+    alert("You chose not to include a number.")
   };
   
   let hasSpecialCharacters = confirm('Would you like your password to contain special characters?');
-  if (confirm) {
+  if (hasSpecialCharacters) {
     alert("Your password will contain at least 1 special character.")
+  } else {
+    alert("You chose not to include a number.")
   };
 
 // Password Parameters - Bullions 
